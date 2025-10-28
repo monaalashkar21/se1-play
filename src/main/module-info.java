@@ -10,8 +10,10 @@
  *
  * Locations of <i>required</i> modules must be provided via {@code MODULEPATH}.
  *
- * @version <code style=color:green>{@value application.package_info#Version}</code>
- * @author <code style=color:blue>{@value application.package_info#Author}</code>
+ * @version <code style=
+ *          color:green>{@value application.package_info#Version}</code>
+ * @author <code style=
+ *         color:blue>{@value application.package_info#Author}</code>
  */
 module se1.play {
 
@@ -27,5 +29,5 @@ module se1.play {
     /*
      * External module required by this module (JUnit-5 module for JUnit testing).
      */
-    //requires org.junit.jupiter.api;
+    requires org.junit.jupiter.api;
 }
